@@ -30,7 +30,7 @@ html{
 }
 .brand{
 	font-size: 40px;
-	font-family: Arial black;
+	font-family: Algerian;
 	font-variant: small-caps;
 	font-weight: bolder;
 	color:tomato;
@@ -47,8 +47,8 @@ text-decoration: underline 2px solid black;
 text-underline-offset: 6px;
 }
 .tracking-in-expand {
-	-webkit-animation: tracking-in-expand 1s ease-in-out 1s both;
-	        animation: tracking-in-expand 1s ease-in-out 1s both;
+	-webkit-animation: tracking-in-expand 2s ease-in-out 1s both;
+	        animation: tracking-in-expand 2s ease-in-out 1s both;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -104,8 +104,8 @@ text-underline-offset: 6px;
 	color: royalblue;
 }
 .myname{
-	font-size: 30px;
-	font-family: Arial black;
+	font-size: 35px;
+	font-family: inherit;
 	font-weight: bolder;
 	color:  tomato;
 }
@@ -117,12 +117,58 @@ text-underline-offset: 6px;
 	 border-radius: 10px;
 	 font-size: 15px;
 	 font-weight: bolder;
-	 background-color: royalblue;
+	 background-color: orangered;
 	 color: white;
 }
 .rsmbutton:hover{
 	background-color: white;
-	color: royalblue;
-	border: 3px solid royalblue;
+	color: orangered;
+	border: 3px solid orangered;
 	transform: scale(1.1);
 }
+.about-section{
+	height: 500px;
+	width: 100%;
+	background-color: whitesmoke;
+	border: none;
+}
+.aboutmain{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.aboutmain div{
+	height: 500px;
+	width: 50%;
+}
+.soma{
+	margin-top: 100px;
+	margin-left: 100px;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-name: zoom;
+}
+@keyframes zoom{
+	100%{
+		transform: scale(1.2);
+		border-radius: 60px;
+	}
+}
+.heading{
+	font-family: Arial black;
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 40px;
+	color: orangered;
+}
+.carrier-objective{
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 100px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+
