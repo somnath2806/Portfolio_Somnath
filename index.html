@@ -8,6 +8,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
      <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Somnath_S_Shinde Portfolio</title>
 </head>
 <body>
@@ -53,7 +54,7 @@
    <section id="about" class="portfolio_section about-section">
    	<div class="aboutmain">
    		<div class="myimage">
-   			<img class="soma" src="C:\Users\User\Downloads\IMG_20240315_181332.jpg" height="300px" >
+   			<img class="soma" src="C:\Users\User\Downloads\IMG-20221006-WA0062 (1).jpg" height="300px" >
    			
    		</div>
    		<div class="carrier-objective">
@@ -61,20 +62,120 @@
    			<p class="carrierinfo">
    				A curious learner and excellent team player searching for a challenging position as a Software Engineer at EPam. to utilise my technical competencies, working knowledge of software development, troubleshooting and networking services and excellent communication skills to grow as a Software Engineer.
    			</p>
-   			
    		</div>
    	</div>
    </section>
-   <section id="skills" class="portfolio_section">
-   	<h1>SKILLS</h1>
+   <section id="skills" class="portfolio_section skill-sections">
+   	<h1 class="heading">SKILLS</h1>
+    <table class="tbl" height="450px" width="90%" cellspacing="50px">
+      <tr align="center" valign="top" class="row">
+        <div class="borderskills">
+          <td width="50%" data-aos="slide-right" class="rd">
+            <h2 class="skills-subheading">Languages</h2>
+              <p class="detailedskills">
+                Core Java, C, HTML, CSS, JavaScript, SQL.
+              </p>
+          </td>
+        </div>
+         <div class="borderskills">
+          <td width="50%" data-aos="slide-left" class="ld">
+            <h2 class="skills-subheading">API's & Frameworks</h2>
+              <p class="detailedskills">
+                Collections, Spring, SpringBoot, Hibernates, Servelets, JDBC, ReactJs. 
+              </p>
+
+          </td>
+        </div>
+      </tr>
+      <tr align="center" valign="top" class="row">
+        <div class="borderskills">
+          <td width="50%" data-aos="slide-right" class="rd" >
+            <h2 class="skills-subheading">Tools</h2>
+              <p class="detailedskills">
+                VS Code, Eclipse, Git, Github, Mysql, Maven, MongoDB.
+              </p>
+          </td>
+        </div>
+        <div class="borderskills">
+          <td width="50%" data-aos="slide-left" class="ld">
+            <h2 class="skills-subheading">Operating Systems</h2>
+              <p class="detailedskills">
+                Windows, Android, iOS, Ubantu.
+              </p>
+          </td>
+        </div>
+      </tr>
+    </table>
    </section> 
-   <section id="projects" class="portfolio_section">
-   	<h1>PROJECTS</h1>
+   <section id="projects" class="portfolio_section project-section">
+   	<h1 class="heading">PROJECTS</h1>
+    <div class="project-card-container">
+      <div class="card-deck">
+  <div class="card">
+    <img src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Calculator</h5>
+      <p class="card-text">Building a calculator project is an excellent way to apply programming skills in a practical context while creating a useful tool for yourself and others. </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Weather Forecast</h5>
+      <p class="card-text">
+A weather forecast project offers a fascinating opportunity to dive into Web development. Here's a breakdown of key considerations and components when embarking on a weather forecast project.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src=https://i.pinimg.com/736x/31/f6/d3/31f6d3fddbc3b87a6ffc705e556562f4.jpg class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Spotify Clone</h5>
+      <p class="card-text">Building a Spotify clone project is not only a rewarding technical challenge but also an opportunity to explore the intersection of music, technology, and user experience.</p>
+    </div>
+  </div>
+</div>
+    </div>
    </section> 
    <section id="contact" class="portfolio_section">
-   	<h1>CONTACT</h1>
+   	<h1 class="heading">CONTACT</h1>
+    <div class="contact-main-container">
+      <div class="contact-child">
+        <ul class="contact-info" type="none">
+          <li>&#x1F449;<a href="#">somnathshinde6102@gmail.com</a></li>
+          <li>&#x1F449;<a href="#">8308406701</a></li>
+          <li>&#x1F449;<a href="https://www.linkedin.com/in/somnath-shinde-593534255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">somnath2806</a></li>
+           <li>&#x1F449;<a href="www.linkedin.com/in/somnath-shinde-593534255">Somnath_Shinde</a></li>
+           <li>&#x1F449;<a href="#">Pune MH</a></li>
+        </ul>
+      </div>
+      <div class="contact-child contact-form">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Comment</label>
+    <textarea class="form-control" id="exampleInputPassword1"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+    </div>
    </section>  
 </div>
-   
+<section id="footer">
+      <h1 id="footerinfo">MADE BY ©SOMNATH 2024</h1>
+</section>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000
+    });
+  </script> 
   </body>
 </html>
